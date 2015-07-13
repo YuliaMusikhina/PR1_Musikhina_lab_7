@@ -3,13 +3,11 @@
 <Root xmlns="XSD1.xsd"> Справочник оборудования/приборов <!—обратите внимание на ссылку на xsd —> <br />
 
 <Pribor> 
-<table border = "1">
 <CodPribora>Код прибора</CodPribora>
 <NazvaniePribora>Название прибора</NazvaniePribora>
 <TypePribora>Тип прибора</TypePribora>
 <DateProizvodstva>Дата производства</DateProizvodstva>
 <MaterialnoOtvetstvennoeFace>Материально ответственное лицо</MaterialnoOtvetstvennoeFace>
-</table>
 </Pribor>
 
 <Pribor>
