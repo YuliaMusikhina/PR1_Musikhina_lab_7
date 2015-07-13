@@ -1,0 +1,75 @@
+# PR1_Musikhina_lab_7
+<script>
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Root">
+<xs:complexType>
+<xs:choice maxOccurs="unbounded">
+<xs:element name="Thing" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="IDThing" type="xs:string" />
+<xs:element name="Count_Thing" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:choice>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+</script>
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="XSD1.xsd"> Сотрудники <!—обратите внимание на ссылку на xsd —> <br />
+
+<Thing> <table border = "1"> <tr>
+<td>Код сотрудника</td>
+<td>Фамилия</td>
+<td><IDThing>Имя</IDThing></td>
+<td><IDThing>Отчество</IDThing></td>
+<td><IDThing>Должность</IDThing></td>
+ <td><IDThing>Дата приема на работу</IDThing></td>
+</tr>
+<tr>
+<td><Count_Thing>001</Count_Thing></td>
+<td><IDThing>Кокорин</IDThing></td>
+<td><IDThing>Алексей</IDThing></td>
+<td><IDThing>Геоггиевич</IDThing></td>
+<td><IDThing>Чикировщик</IDThing></td>
+<td><IDThing>01.12.11</IDThing></td>
+</tr>
+<tr>
+<td><Count_Thing>002</Count_Thing></td>
+<td><IDThing>Комаров</IDThing></td>
+<td><IDThing>Максим</IDThing></td>
+<td><IDThing>Ильич</IDThing></td>
+<td><IDThing>Программист</IDThing></td>
+ <td><IDThing>24.06.04</IDThing></td>
+</tr>
+<tr>
+<td><Count_Thing>003</Count_Thing></td>
+<td><IDThing>Макарова</IDThing></td>
+<td><IDThing>Кристина</IDThing></td>
+<td><IDThing>Сергеевна</IDThing></td>
+<td><IDThing>Бухгалтер</IDThing></td>
+ <td><IDThing>01.03.10</IDThing></td>
+</tr>
+<tr>
+<td><Count_Thing>004</Count_Thing></td>
+<td><IDThing>Кукушкина</IDThing></td>
+<td><IDThing>Марина</IDThing></td>
+<td><IDThing>Володаровна</IDThing></td>
+<td><IDThing>Зам.директора</IDThing></td>
+<td><IDThing>15.06.97</IDThing></td>
+</tr>
+<tr>
+<td><Count_Thing>005</Count_Thing></td>
+<td><IDThing>Кривошейн</IDThing></td>
+<td><IDThing>Владимир</IDThing></td>
+<td><IDThing>Маркович</IDThing></td>
+<td><IDThing>Электрик</IDThing></td>
+<td><IDThing>05.12.14</IDThing></td>
+</tr>
+</table>
+
+</Thing>
+</Root>
