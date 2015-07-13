@@ -5,11 +5,14 @@
 <xs:element name="Root">
 <xs:complexType>
 <xs:choice maxOccurs="unbounded">
-<xs:element name="Thing" minOccurs="0" maxOccurs="unbounded">
+<xs:element name="Pribor" minOccurs="0" maxOccurs="unbounded">
 <xs:complexType>
 <xs:sequence>
-<xs:element name="IDThing" type="xs:string" />
-<xs:element name="Count_Thing" type="xs:int" />
+<xs:element name="CodPribora" type="xs:int" />
+<xs:element name="NazvaniePribora" type="xs:string" />
+<xs:element name="TypePribora" type="xs:string" />
+<xs:element name="DateProizvodstva" type="xs:date" />
+<xs:element name="MaterialnoOtvetstvennoeFace" type="xs:string" />
 </xs:sequence>
 </xs:complexType>
 </xs:element>
@@ -21,49 +24,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Root xmlns="XSD1.xsd"> Справочник оборудования/приборов <!—обратите внимание на ссылку на xsd —> <br />
 
-<Thing> <table border = "1"> <tr>
-<td>Код прибора</td>
-<td>Название прибора</td>
-<td><IDThing>Тип прибора</IDThing></td>
-<td><IDThing>Дата производства</IDThing></td>
-<td><IDThing>Материально ответственное лицо</IDThing></td>
-</tr>
-<tr>
-<td><Count_Thing>1</Count_Thing></td>
-<td><IDThing>машина</IDThing></td>
-<td><IDThing>механика</IDThing></td>
-<td><IDThing>02.06.96</IDThing></td>
-<td><IDThing>механики</IDThing></td>
-</tr>
-<tr>
-<td><Count_Thing>2</Count_Thing></td>
-<td><IDThing>пылесос</IDThing></td>
-<td><IDThing>механика</IDThing></td>
-<td><IDThing>25.06.14</IDThing></td>
-<td><IDThing>изобретатели</IDThing></td>
-</tr>
-<tr>
-<td><Count_Thing>3</Count_Thing></td>
-<td><IDThing>фен</IDThing></td>
-<td><IDThing>механика</IDThing></td>
-<td><IDThing>05.11.12</IDThing></td>
-<td><IDThing>изобретатели</IDThing></td>
-</tr>
-<tr>
-<td><Count_Thing>4</Count_Thing></td>
-<td><IDThing>миксер</IDThing></td>
-<td><IDThing>механика</IDThing></td>
-<td><IDThing>01.01.16</IDThing></td>
-<td><IDThing>изобретатели</IDThing></td>
-</tr>
-<tr>
-<td><Count_Thing>5</Count_Thing></td>
-<td><IDThing>стол</IDThing></td>
-<td><IDThing>мебель</IDThing></td>
-<td><IDThing>04.05.11</IDThing></td>
-<td><IDThing>конструкторщики</IDThing></td>
-</tr>
+<Pribor> 
+<table border = "1">
+<CodPribora>Код прибора</CodPribora>
+<NazvaniePribora>Название прибора</NazvaniePribora>
+<TypePribora>Тип прибора</TypePribora>
+<DateProizvodstva>Дата производства</DateProizvodstva>
+<MaterialnoOtvetstvennoeFace>Материально ответственное лицо</MaterialnoOtvetstvennoeFace>
 </table>
+</Pribor>
 
-</Thing>
+<Pribor>
+<CodPribora>1</CodPribora>
+<NazvaniePribora>машина</NazvaniePribora>
+<TypePribora>механика</TypePribora>
+<DateProizvodstva>02.06.96</DateProizvodstva>
+<MaterialnoOtvetstvennoeFace>механики</MaterialnoOtvetstvennoeFace>
+</Pribor>
+
+<Pribor>
+<CodPribora>2</CodPribora>
+<NazvaniePribora>пылесос</NazvaniePribora>
+<TypePribora>механика</TypePribora>
+<DateProizvodstva>25.06.14</DateProizvodstva>
+<MaterialnoOtvetstvennoeFace>изобретатели</MaterialnoOtvetstvennoeFace>
+</Pribor>
+
+<Pribor>
+<CodPribora>3</CodPribora>
+<NazvaniePribora>фен</NazvaniePribora>
+<TypePribora>механика</TypePribora>
+<DateProizvodstva>05.11.12</DateProizvodstva>
+<MaterialnoOtvetstvennoeFace>изобретатели</MaterialnoOtvetstvennoeFace>
+</Pribor>
+
+<Pribor>
+<CodPribora>4</CodPribora>
+<NazvaniePribora>миксер</NazvaniePribora>
+<TypePribora>механика</TypePribora>
+<DateProizvodstva>01.01.16</DateProizvodstva>
+<MaterialnoOtvetstvennoeFace>изобретатели</MaterialnoOtvetstvennoeFace>
+</Pribor>
+
+<Pribor>
+<CodPribora>5</CodPribora>
+<NazvaniePribora>стол</NazvaniePribora>
+<TypePribora>мебель</TypePribora>
+<DateProizvodstva>04.05.11</DateProizvodstva>
+<MaterialnoOtvetstvennoeFace>конструкторщики</MaterialnoOtvetstvennoeFace>
+</Pribor>
+
 </Root>
