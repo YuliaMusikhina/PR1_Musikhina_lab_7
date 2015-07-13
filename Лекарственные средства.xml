@@ -1,6 +1,6 @@
 # PR1_Musikhina_lab_7
 <?xml version="1.0" encoding="utf-8"?>
-<Root xmlns="XSD1.xsd"> Лекарственные средства<!—обратите внимание на ссылку на xsd —> <br />
+<Root xmlns="XSD4.xsd"> Лекарственные средства<!—обратите внимание на ссылку на xsd —> <br />
 <Medicine> 
 <CodMedicine>Код лекарства</CodMedicine>
 <NameMedicine>Название лекарства</NameMedicine>
