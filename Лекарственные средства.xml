@@ -2,14 +2,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Root xmlns="XSD1.xsd"> Лекарственные средства<!—обратите внимание на ссылку на xsd —> <br />
 <Medicine> 
-<table border = "1">
 <CodMedicine>Код лекарства</CodMedicine>
 <NameMedicine>Название лекарства</NameMedicine>
 <Indications>Показания к применению</Indications>
 <Unitofmeasure>Еденица измерения</Unitofmeasure>
 <Number>Количество в упаковке</Number>
 <manufacturerName>Название производителя</manufacturerName>
-</table>
 </Medicine>
 <Medicine>
 <CodMedicine>1</CodMedicine>
