@@ -2,14 +2,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Root xmlns="XSD1.xsd"> Цветочная продукция <!—обратите внимание на ссылку на xsd —> <br />
 <Flower> 
-<table border = "1">
 <Codflower>Код цветка</Codflower>
 <NameFlower>Название цветка</NameFlower>
 <ClassFlower>Сорт цветка</ClassFlower>
 <AverageHeight>Средня высота</AverageHeight>
 <Flowering>Цветущий</Flowering>
 <AdditionalInformation>Дополнительная информация</AdditionalInformation>
-</table>
 </Flower>
 <Flower>
 <Codflower>2</Codflower>
