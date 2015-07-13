@@ -1,0 +1,54 @@
+# PR1_Musikhina_lab_7
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="XSD1.xsd"> Лекарственные средства<!—обратите внимание на ссылку на xsd —> <br />
+<Medicine> 
+<table border = "1">
+<CodMedicine>Код лекарства</CodMedicine>
+<NameMedicine>Название лекарства</NameMedicine>
+<Indications>Показания к применению</Indications>
+<Unitofmeasure>Еденица измерения</Unitofmeasure>
+<Number>Количество в упаковке</Number>
+<manufacturerName>Название производителя</manufacturerName>
+</table>
+</Medicine>
+<Medicine>
+<CodMedicine>1</CodMedicine>
+<NameMedicine>Ромашка</NameMedicine>
+<Indications>Аллергия на растение</Indications>
+<Unitofmeasure>200</Unitofmeasure>
+<Number>12</Number>
+<manufacturerName>Ромашка +</manufacturerName>
+</Medicine>
+<Medicine>
+<CodMedicine>2</CodMedicine>
+<NameMedicine>Парацетамол</NameMedicine>
+<Indications>Нет</Indications>
+<Unitofmeasure>100</Unitofmeasure>
+<Number>10</Number>
+<manufacturerName>Tablets</manufacturerName>
+</Medicine>
+<Medicine>
+<CodMedicine>3</CodMedicine>
+<NameMedicine>Ингалипт</NameMedicine>
+<Indications>нет</Indications>
+<Unitofmeasure>450</Unitofmeasure>
+<Number>1</Number>
+<manufacturerName>Ingalipt prod.</manufacturerName>
+</Medicine>
+<Medicine>
+<CodMedicine>4</CodMedicine>
+<NameMedicine>Анаферон</NameMedicine>
+<Indications>нет</Indications>
+<Unitofmeasure>280</Unitofmeasure>
+<Number>12</Number>
+<manufacturerName>Tablets</manufacturerName>
+</Medicine>
+<Medicine>
+<CodMedicine>5</CodMedicine>
+<NameMedicine>Пертуссин</NameMedicine>
+<Indications>Аллергия</Indications>
+<Unitofmeasure>300</Unitofmeasure>
+<Number>12</Number>
+<manufacturerName>Pertic</manufacturerName>
+</Medicine>
+</Root>
