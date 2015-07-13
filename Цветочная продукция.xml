@@ -1,6 +1,6 @@
 # PR1_Musikhina_lab_7
 <?xml version="1.0" encoding="utf-8"?>
-<Root xmlns="XSD1.xsd"> Цветочная продукция <!—обратите внимание на ссылку на xsd —> <br />
+<Root xmlns="XSD3.xsd"> Цветочная продукция <!—обратите внимание на ссылку на xsd —> <br />
 <Flower> 
 <Codflower>Код цветка</Codflower>
 <NameFlower>Название цветка</NameFlower>
