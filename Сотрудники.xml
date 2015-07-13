@@ -3,16 +3,13 @@
 <Root xmlns="XSD1.xsd"> Сотрудники <!—обратите внимание на ссылку на xsd —> <br />
 
 <Sotrudnik> 
-<table border = "1">
 <CodSotrudnika>Код сотрудника</CodSotrudnika>
 <FamilyName>Фамилия</FamilyName>
 <Name>Имя</Name>
 <Otchestvo>Отчество</Otchestvo>
 <Dolzhnost>Должность</Dolzhnost>
 <DatePriemaNaRabotu>Дата приема на работу</DatePriemaNaRabotu>
-</table>
 </Sotrudnik>
-
 
 <Sotrudnik>
 <CodSotrudnika>001</CodSotrudnika>
