@@ -1,6 +1,6 @@
 # PR1_Musikhina_lab_7
 <?xml version="1.0" encoding="utf-8"?>
-<Root xmlns="XSD1.xsd"> Справочник оборудования/приборов <!—обратите внимание на ссылку на xsd —> <br />
+<Root xmlns="XSD2.xsd"> Справочник оборудования/приборов <!—обратите внимание на ссылку на xsd —> <br />
 
 <Pribor> 
 <CodPribora>Код прибора</CodPribora>
