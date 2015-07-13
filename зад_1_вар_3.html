@@ -5,11 +5,15 @@
 <xs:element name="Root">
 <xs:complexType>
 <xs:choice maxOccurs="unbounded">
-<xs:element name="Thing" minOccurs="0" maxOccurs="unbounded">
+<xs:element name="Flower" minOccurs="0" maxOccurs="unbounded">
 <xs:complexType>
 <xs:sequence>
-<xs:element name="IDThing" type="xs:string" />
-<xs:element name="Count_Thing" type="xs:int" />
+<xs:element name="CodFlower" type="xs:int" />
+<xs:element name="NameFlower" type="xs:string" />
+<xs:element name="ClassFlower" type="xs:string" />
+<xs:element name="AverageHeight" type="xs:int" />
+<xs:element name="Flowering" type="xs:boolean" />
+<xs:element name="AdditionalInformation" type="xs:string" />
 </xs:sequence>
 </xs:complexType>
 </xs:element>
@@ -19,58 +23,48 @@
 </xs:schema>
 </script>
 <?xml version="1.0" encoding="utf-8"?>
-<Root xmlns="XSD1.xsd"> Цветочная продукция<!—обратите внимание на ссылку на xsd —> <br />
-<Thing>
-<Thing> <table border="1"> <tr>
-<td><IDThing>Код цветка</IDThing></td>
-<td><IDThing>Название цветка</IDThing></td>
-<td><IDThing>Сорт цветка</IDThing></td>
-<td><IDThing>Средняя высота</IDThing></td>
-<td><IDThing>Цветущий</IDThing></td>
-<td><IDThing>Дополнительные сведения</IDThing></td></tr>
-<tr>
-<td><Count_Thing>1</Count_Thing></td>
-<td><Count_Thing>Гладиолус</Count_Thing></td>
-<td><Count_Thing>Гладиолус Мюриэл</Count_Thing></td>
-<td><Count_Thing>1 м</Count_Thing></td>
-<td><Count_Thing>да</Count_Thing></td>
-<td><Count_Thing>вид многолетних травянистых растений семейства Ирисовые</Count_Thing></td>
-
-</tr>
-<tr>
-<td><Count_Thing>2</Count_Thing></td>
-<td><Count_Thing>Нарцисс</Count_Thing></td>
-<td><Count_Thing>Нарцисс поэтический</Count_Thing></td>
-<td><Count_Thing>60 см</Count_Thing></td>
-<td><Count_Thing>да</Count_Thing></td>
-<td><Count_Thing>род однодольных растений из семейства амариллисовых</Count_Thing></td>
-
-</tr><tr>
-<td><Count_Thing>3</Count_Thing></td>
-<td><Count_Thing>Роза</Count_Thing></td>
-<td><Count_Thing>Красная роза</Count_Thing></td>
-<td><Count_Thing>90 см</Count_Thing></td>
-<td><Count_Thing>да</Count_Thing></td>
-<td><Count_Thing>собирательное название видов и сортов представителей рода Шиповник</Count_Thing></td>
-
-</tr><tr>
-<td><Count_Thing>4</Count_Thing></td>
-<td><Count_Thing>Лилия</Count_Thing></td>
-<td><Count_Thing>Лилия белоснежная</Count_Thing></td>
-<td><Count_Thing>1 м</Count_Thing></td>
-<td><Count_Thing>да</Count_Thing></td>
-<td><Count_Thing> многолетнее луковичное растение</Count_Thing></td>
-
-</tr>
-<tr>
-<td><Count_Thing>5</Count_Thing></td>
-<td><Count_Thing>Хризантема</Count_Thing></td>
-<td><Count_Thing>Хризантема индийская</Count_Thing></td>
-<td><Count_Thing>50 см</Count_Thing></td>
-<td><Count_Thing>да</Count_Thing></td>
-<td><Count_Thing>род однолетних и многолетних травянистых растений семейства Астровые, или Сложноцветные, близкий к родам Тысячелистник и Пижма</Count_Thing></td>
-
-</tr>
+<Root xmlns="XSD1.xsd"> Цветочная продукция <!—обратите внимание на ссылку на xsd —> <br />
+<Flower> 
+<table border = "1">
+<Codflower>Код цветка</Codflower>
+<NameFlower>Название цветка</NameFlower>
+<ClassFlower>Сорт цветка</ClassFlower>
+<AverageHeight>Средня высота</AverageHeight>
+<Flowering>Цветущий</Flowering>
+<AdditionalInformation>Дополнительная информация</AdditionalInformation>
 </table>
-</Thing>
+</Flower>
+<Flower>
+<Codflower>2</Codflower>
+<NameFlower>Нарцисс</NameFlower>
+<ClassFlower>Нарцисс поэтический</ClassFlower>
+<AverageHeight>60 см</AverageHeight>
+<Flowering>да</Flowering>
+<AdditionalInformation>род однодольных растений из семейства амариллисовых</AdditionalInformation>
+</Flower>
+<Flower>
+<Codflower>3</Codflower>
+<NameFlower>Роза</NameFlower>
+<ClassFlower>Красная роза</ClassFlower>
+<AverageHeight>90 см</AverageHeight>
+<Flowering>да</Flowering>
+<AdditionalInformation>собирательное название видов и сортов представителей рода Шиповник</AdditionalInformation>
+</Flower>
+<Flower>
+<Codflower>4</Codflower>
+<NameFlower>Лилия</NameFlower>
+<ClassFlower>Лилия белоснежная</ClassFlower>
+<AverageHeight>1 м</AverageHeight>
+<Flowering>да</Flowering>
+<AdditionalInformation>многолетнее луковичное растение</AdditionalInformation>
+</Flower>
+<Flower>
+<Codflower>5</Codflower>
+<NameFlower>Хризантема</NameFlower>
+<ClassFlower>Хризантема индийская</ClassFlower>
+<AverageHeight>50 см</AverageHeight>
+<Flowering>да</Flowering>
+<AdditionalInformation>род однолетних и многолетних травянистых растений семейства Астровые, или Сложноцветные, близкий к родам Тысячелистник и Пижма</AdditionalInformation>
+</Flower>
+
 </Root>
